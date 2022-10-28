@@ -18,6 +18,10 @@ body {
   background-position: center;
 }
 
+#count-down {
+  font-size: 2rem;
+}
+
 .form-signin {
   width: 100%;
   max-width: 330px;
