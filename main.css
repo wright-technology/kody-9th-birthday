@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Dragonball_%284-Star%29.svg/220px-Dragonball_%284-Star%29.svg.png");
+  background-position: center;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.input-group-text {
+  background-color: #0d6efd;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.guest-list-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/image-9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.details {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/image-8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 0.25rem;
+  margin-bottom: 00.5rem;
+}
+
+.list-group-item {
+  background-color: transparent;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+}
